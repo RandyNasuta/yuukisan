@@ -2,18 +2,18 @@ export default function Layout({ children }) {
     return (
         <>
             <header>
-                <nav className="bg-blue-600 shadow-md p-4">
-                    <div className="container mx-auto flex items-center justify-between">
-                        <div className="text-xl font-bold text-black">Yuuklsan</div>
-                        <ul className="flex space-x-4">
+                <nav className="h-full py-2 bg-blue-400 shadow-md">
+                    <div className="flex items-center px-4 py-2 gap-x-6 text-white text-xl font-bold">
+                        <div className="hover:text-blue-200"><a href="/">Yuukisan</a></div>
+                        <ul className="flex gap-x-6 font-normal">
                             <li>
                                 {' '}
-                                <a href="/" className="text-black hover:text-blue-200">
+                                <a href="/" className="hover:text-blue-200">
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="/" className="text-black hover:text-blue-200">
+                                <a href="/" className="hover:text-blue-200">
                                     Trending
                                 </a>
                             </li>
